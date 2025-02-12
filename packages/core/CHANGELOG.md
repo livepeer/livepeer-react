@@ -1,5 +1,11 @@
 # @livepeer/core
 
+## 3.2.8
+
+### Patch Changes
+
+- [#585](https://github.com/livepeer/ui-kit/pull/585) [`0e5a036`](https://github.com/livepeer/ui-kit/commit/0e5a0365fe9d685271bc96ff5d750ee19fe6406b) Thanks [@leszko](https://github.com/leszko)! - Decrease the minimal value of backoffMax from 10s to 1s
+
 ## 3.2.7
 
 ### Patch Changes

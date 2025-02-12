@@ -2,7 +2,7 @@
   "name": "@livepeer/core-react",
   "description": "Internal library used for livepeer react primitives.",
   "license": "MIT",
-  "version": "3.2.7",
+  "version": "3.2.8",
   "type": "module",
   "repository": {
     "type": "git",
@@ -13,7 +13,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     "./package.json": "./package.json",
     ".": {
@@ -29,8 +31,12 @@
   },
   "typesVersions": {
     "*": {
-      "crypto": ["./dist/crypto/index.d.ts"],
-      "*": ["./dist/index.d.ts"]
+      "crypto": [
+        "./dist/crypto/index.d.ts"
+      ],
+      "*": [
+        "./dist/index.d.ts"
+      ]
     }
   },
   "scripts": {
@@ -55,5 +61,10 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
-  "keywords": ["livepeer", "video", "streaming", "livestream"]
+  "keywords": [
+    "livepeer",
+    "video",
+    "streaming",
+    "livestream"
+  ]
 }
