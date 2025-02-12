@@ -2,7 +2,7 @@
   "name": "@livepeer/core-web",
   "description": "Livepeer UI Kit's core web library, for adding reactive stores to video elements.",
   "license": "MIT",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "type": "module",
   "repository": {
     "type": "git",

@@ -3,7 +3,7 @@
   "description": "Livepeer UI Kit's core vanilla JS library.",
   "license": "MIT",
   "type": "module",
-  "version": "3.2.7",
+  "version": "3.2.8",
   "repository": {
     "type": "git",
     "url": "https://github.com/livepeer/ui-kit.git",
@@ -13,7 +13,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     "./package.json": "./package.json",
     ".": {
@@ -54,13 +56,27 @@
   },
   "typesVersions": {
     "*": {
-      "crypto": ["./dist/crypto/index.d.ts"],
-      "errors": ["./dist/errors/index.d.ts"],
-      "media": ["./dist/media/index.d.ts"],
-      "storage": ["./dist/storage/index.d.ts"],
-      "utils": ["./dist/utils/index.d.ts"],
-      "version": ["./dist/version/index.d.ts"],
-      "*": ["./dist/index.d.ts"]
+      "crypto": [
+        "./dist/crypto/index.d.ts"
+      ],
+      "errors": [
+        "./dist/errors/index.d.ts"
+      ],
+      "media": [
+        "./dist/media/index.d.ts"
+      ],
+      "storage": [
+        "./dist/storage/index.d.ts"
+      ],
+      "utils": [
+        "./dist/utils/index.d.ts"
+      ],
+      "version": [
+        "./dist/version/index.d.ts"
+      ],
+      "*": [
+        "./dist/index.d.ts"
+      ]
     }
   },
   "scripts": {
@@ -77,5 +93,10 @@
   "devDependencies": {
     "jose": "^5.3.0"
   },
-  "keywords": ["livepeer", "video", "streaming", "livestream"]
+  "keywords": [
+    "livepeer",
+    "video",
+    "streaming",
+    "livestream"
+  ]
 }
